@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="862e8561-153c-4a31-8f67-f7d40f32d1ca" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="91c76062-9f48-4365-96d0-c245da060ecf" />
+  </component>
+  <component name="ProjectId" id="1fSbc2M0YmtyHdOTqKHazj5LBbM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="862e8561-153c-4a31-8f67-f7d40f32d1ca" name="Default Changelist" comment="" />
+      <created>1596214516521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596214516521</updated>
+      <workItem from="1596214519984" duration="1538000" />
+      <workItem from="1596216201067" duration="1785000" />
+      <workItem from="1596218134977" duration="1537000" />
+      <workItem from="1596219701815" duration="175000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="78" y="178" key="#Notifications" timestamp="1596219532292">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="78" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1596219532292" />
+    <state x="0" y="162" key="SettingsEditor" timestamp="1596219553230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596219553230" />
+    <state x="149" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1596219849690">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="149" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596219849690" />
+  </component>
+</project>
