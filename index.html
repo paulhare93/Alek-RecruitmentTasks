@@ -38,7 +38,18 @@
     <p>Input words separated with " " (spacebar) and click button to see them combined using CamelCase.</p>
     <input type="text" id="camelCaseInput">
     <input type="submit" onclick="camelCaseCombiner(document.getElementById('camelCaseInput').value)">  </div>
-
+  <div class="numberSorterDiv">
+    <h3>Number sorter</h3>
+    <p>Type numbers separated by space, and click button to sort them.</p>
+    <input type="text" id="numbersToSortInput">
+    <input type="submit" onclick="sortNumbers(document.getElementById('numbersToSortInput').value)">
+  </div>
+<div>
+  <h3>Word counter</h3>
+  <p>Type words separated by space and click button to count them.</p>
+  <input type="text" id="wordsToSortInput">
+  <input type="submit" onclick="countWords(document.getElementById('wordsToSortInput').value)">
+</div>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
