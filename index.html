@@ -1,66 +1,87 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Recruitment tasks</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title>Recruitment tasks</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <meta name="theme-color" content="#fafafa" />
+  </head>
 
-  <meta name="theme-color" content="#fafafa">
-</head>
+  <body>
+    <!-- Add your site or application content here -->
+    <div id="OddTestDiv">
+      <h3>Odd Test</h3>
+      <p>
+        Input any number and click button to check if it is Odd or not.
+      </p>
+      <input type="number" id="numberToCheck" required autofocus />
+      <input
+        type="submit"
+        value="Check"
+        onclick="isOdd(document.getElementById('numberToCheck').value)"
+      />
+    </div>
+    <div>
+      <h3>Camel Caser</h3>
+      <p>
+        Input words separated with " " (spacebar) and click button to see them
+        combined using CamelCase.
+      </p>
+      <input type="text" id="camelCaseInput" />
+      <input
+        type="submit"
+        onclick="camelCaseCombiner(document.getElementById('camelCaseInput').value)"
+      />
+    </div>
+    <div class="numberSorterDiv">
+      <h3>Number sorter</h3>
+      <p>Type numbers separated by space, and click button to sort them.</p>
+      <input type="text" id="numbersToSortInput" />
+      <input
+        type="submit"
+        onclick="sortNumbers(document.getElementById('numbersToSortInput').value)"
+      />
+    </div>
+    <div>
+      <h3>Word counter</h3>
+      <p>Type words separated by space and click button to count them.</p>
+      <input type="text" id="wordsToSortInput" />
+      <input
+        type="submit"
+        onclick="countWords(document.getElementById('wordsToSortInput').value)"
+      />
+    </div>
 
-<body>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
-  <!-- Add your site or application content here -->
-<div id="OddTestDiv">
-  <h3>Odd Test</h3>
-  <p>
-    Input any number and click button to check if it is Odd or not.
-  </p>
-  <input type="number" id="numberToCheck" required autofocus>
-  <input type="submit" value="Check" onclick="isOdd(document.getElementById('numberToCheck').value)">
-</div>
-  <div>
-<h3>Camel Caser</h3>
-    <p>Input words separated with " " (spacebar) and click button to see them combined using CamelCase.</p>
-    <input type="text" id="camelCaseInput">
-    <input type="submit" onclick="camelCaseCombiner(document.getElementById('camelCaseInput').value)">  </div>
-  <div class="numberSorterDiv">
-    <h3>Number sorter</h3>
-    <p>Type numbers separated by space, and click button to sort them.</p>
-    <input type="text" id="numbersToSortInput">
-    <input type="submit" onclick="sortNumbers(document.getElementById('numbersToSortInput').value)">
-  </div>
-<div>
-  <h3>Word counter</h3>
-  <p>Type words separated by space and click button to count them.</p>
-  <input type="text" id="wordsToSortInput">
-  <input type="submit" onclick="countWords(document.getElementById('wordsToSortInput').value)">
-</div>
-
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
-
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
 </html>
